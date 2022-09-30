@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgba(94, 120, 24, 0.428);
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+
+.CalculatorBody{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: rgb(11, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0 0 50px red;
+}
+
+td{
+    text-align: center;
+    color: bisque;
+    border: 2px solid rgb(171, 26, 26);
+}
+
+input[type="button"]{
+    width: 90px;
+    height: 80px;
+    color:rgba(255, 254, 254, 0.971);
+    background-color: rgb(0, 0, 0);
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s case-in-out;
+}
+
+input[type="button"]:hover{
+    background-color: brown;
+    outline: none;
+}
+
+input[type="text"]{
+    width: 340px;
+    height: 80px;
+    text-align: right;
+    margin: 10px;
+    padding: 2px;
+    outline: none;
+    border: none;
+    font-size:2em;
+}
